@@ -1,0 +1,11 @@
+﻿{
+  "css": [
+   
+  ],
+  "javascript": [
+    "~/App_Plugins/DocumentTypeMover/js/move.controller.js",
+    "~/App_Plugins/DocumentTypeMover/js/resources.js",
+    "~/App_Plugins/DocumentTypeMover/js/services.js"
+  ]
+}
+

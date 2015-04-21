@@ -1,0 +1,27 @@
+﻿<div class="umb-dialog-body with-footer" ng-controller="DocumentTypeMoverController">
+
+    <div class="umb-pane">
+        <h5>Move "{{currentNode.name}}" to be a child of:</h5>
+
+        <p class="abstract" ng-hide="siblings">
+            This document type has no siblings.
+        </p>
+
+        <ul class="umb-actions umb-actions-child">
+
+            <li ng-repeat="docType in siblings | orderBy:'name':false">
+                <a ng-click="move(docType);">
+
+                    <i class="large {{docType.icon}}"></i>
+
+                    <span class="menu-label">
+                        {{docType.Name}}
+                        <small>
+                            {{docType.Description}}
+                        </small>
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
