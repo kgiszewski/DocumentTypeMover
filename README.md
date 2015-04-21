@@ -1,6 +1,6 @@
 # DocumentTypeMover
 
-An Umbraco plugin that adds Document Type move functionality to the version 7 backoffice.
+An Umbraco plugin that adds Document Type 'move' functionality to the version 7 backoffice.
 
 At present, it is safe to move a document type 'down' as a child of an existing sibling.  This facilitates that type of move.
 
